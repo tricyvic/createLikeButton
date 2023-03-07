@@ -1,0 +1,42 @@
+#content{
+    display: grid;
+    place-items: center;
+    margin-top: 3%;
+    padding-top: 10pc;
+    padding-bottom: 10PC;
+    background: linear-gradient(to right, red , yellow);
+    
+}
+button{
+    border-radius: 12%;
+}
+#like, #displayLikes{
+    margin-top: 3pc;
+    font-size: 2.5pc;
+}
+ul{ 
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.rightNav li{
+    float: left;
+}
+.rightNav a{
+    
+    font-size: 22px;
+    margin-left: 50px;
+    display: block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.contact, .about{
+    text-align: center;
+    font-size: 2pc;
+}
